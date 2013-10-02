@@ -37,18 +37,18 @@ statement to execute if true;
 4. The switch() Statement
 
 		var nope = ‘no’;	
-	var response = prompt(“Please enter your response, Yes or No”, “”);
-	switch (response) {
-		case ‘Yes’:								//if equal to ‘Yes’
-		case ‘yes’:								//or equal to ‘yes’
-			document.write(“Thank you for your order”);
-			break;
-		case ‘No’:
-		case  nope:								//using a variable
-			document.write(“You have chosen to cancel the order ”);
-			break;
-		default:
-			document.write(“Invalid option, please choose Yes or No”);
+		var response = prompt(“Please enter your response, Yes or No”, “”);
+		switch (response) {
+			case ‘Yes’:								//if equal to ‘Yes’
+			case ‘yes’:								//or equal to ‘yes’
+				document.write(“Thank you for your order”);
+				break;
+			case ‘No’:
+			case  nope:								//using a variable
+				document.write(“You have chosen to cancel the order ”);
+				break;
+			default:
+				document.write(“Invalid option, please choose Yes or No”);
 	}
 
 *Allows you to have multiple conditions
