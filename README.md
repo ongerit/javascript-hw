@@ -92,16 +92,27 @@ Example1:	A simple nested loop:
 			}
 
 Example2:	Replacing a ‘for’ loop for a ‘while’ loop:
-		for (row = 1; row <= 12; row++)				//loop 12 times
-			{
-				var col = 1;
-				while( col <= 30)					//loop 30 times
+			for (row = 1; row <= 12; row++)				//loop 12 times
 				{
-					document.write(col + ",");			//print the col number
-					col++;						//add 1 to col number
+					var col = 1;
+					while( col <= 30)					//loop 30 times
+					{
+						document.write(col + ",");			//print the col number
+						col++;						//add 1 to col number
+					}
+					document.write("<br> ");				//next line
 				}
-				document.write("<br> ");				//next line
-			}
 
 # Above text will help with the homework #
 ========
+
+###Functions
+
+A function is a block of code that is designed to perform a specific task.   It is up to you to design and develop the code that is inside the function.   To declare a function, use the following syntax:
+
+	>function  functionName  ( parameter1, parameter2, ….)
+		{
+			JavaScript code to handle a particular task
+		}
+
+1. Functions do not get called automatically. They have to be called. 
