@@ -36,7 +36,7 @@ statement to execute if true;
 
 4. The switch() Statement
 
-		var nope = ‘no’;	
+			var nope = ‘no’;	
 		var response = prompt(“Please enter your response, Yes or No”, “”);
 		switch (response) {
 			case ‘Yes’:								//if equal to ‘Yes’
@@ -49,7 +49,7 @@ statement to execute if true;
 				break;
 			default:
 				document.write(“Invalid option, please choose Yes or No”);
-	}
+		}
 
 *Allows you to have multiple conditions
 *Has to be exact (case-sensitive)
@@ -63,3 +63,45 @@ statement to execute if true;
 
 ####Iterative Processing-- while (...)
 
+	var i=1;
+
+	while (i<=6)
+		{
+	document.write("<h"+i+">Hello World<h"+i+"><br>");
+	i++;
+	}
+*For loop works exactly like the while loop but the syntax is different
+
+	for  (count = 1;  count <= 100;  count++) 
+	{
+	document.write(“Loop number: ” + count + “ <br>”);
+
+	}
+	document.writeln(“Done counting!!!”);
+
+*For loop (Nested Loop)
+Example1:	A simple nested loop:
+
+	for (row = 1; row <= 12; row++)				//loop 12 times
+			{
+				for (col = 1; col <= 30; col++)			//loop 30 times
+				{
+					document.write(col + ",");			//print the col number
+				}
+				document.write("<br> ");				//next line
+			}
+
+Example2:	Replacing a ‘for’ loop for a ‘while’ loop:
+		for (row = 1; row <= 12; row++)				//loop 12 times
+			{
+				var col = 1;
+				while( col <= 30)					//loop 30 times
+				{
+					document.write(col + ",");			//print the col number
+					col++;						//add 1 to col number
+				}
+				document.write("<br> ");				//next line
+			}
+
+# Above text will help with the homework #
+========
