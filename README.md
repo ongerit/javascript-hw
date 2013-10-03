@@ -115,4 +115,7 @@ A function is a block of code that is designed to perform a specific task.   It 
 			JavaScript code to handle a particular task
 		}
 
-1. Functions do not get called automatically. They have to be called. 
+1. Functions do not get called automatically. They have to be called.
+
+###Global Variabl
+1. To localize a variable to you have to use var. If you do not use var, the variable is globalized. 
