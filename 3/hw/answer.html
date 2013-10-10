@@ -1,0 +1,46 @@
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>HTML HOMEWORK</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<script>
+    function mult(maxRow, maxCol)
+    {
+    document.write('<table border="1" cellpadding="2">');
+
+        //generate column headers ------------------------
+
+        document.write('<tr bgcolor=pink>');
+        document.write('<th>' + 'X' + '</th>');
+        for (var col = 1; col <= maxCol; col++)
+            document.write('<th>' + col + '</th>');
+        document.write('</tr>');
+
+        //generate body of table ------------------------
+
+        var row = 1;
+        while (row <= maxRow)
+        {        
+            document.write('<tr>');
+            document.write('<th bgcolor=pink>' +  row + '</th>');
+            for (var col = 1; col <= maxCol; col++)
+                document.write('<td>' + row*col + '</td>');
+            document.write('</tr>');
+            row++;
+    }
+
+        document.write('</table>');
+    }
+</script>
