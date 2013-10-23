@@ -117,5 +117,5 @@ A function is a block of code that is designed to perform a specific task.   It 
 
 1. Functions do not get called automatically. They have to be called.
 
-###Global Variabl
+###Global Variable
 1. To localize a variable to you have to use var. If you do not use var, the variable is globalized. 
