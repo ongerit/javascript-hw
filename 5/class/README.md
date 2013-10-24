@@ -16,6 +16,7 @@ INDENTATION! INDENTATION!
 * On the server-side 
 * HTTP is the language the user uses to connect to the server
 *GET is going to ask the browser to collect the name value pair. The name of the field and the value associated with the pair. 
+*URL encoding-when a space is passed you get %20
 
 ```
 

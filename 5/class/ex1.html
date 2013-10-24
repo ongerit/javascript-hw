@@ -1,16 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Event Listener</title>
+	<title>FORMS</title>
 </head>
-<body>
+<body style="background:#f4f4f4; color:#555; font-family:Arial;">
+<h1>Basic Form</h1>
+<form action="#" method="POST" target="_blank">
+	<fieldset style="border:none; width:450px;">
+First Name: <input type="text" name="fname">
+Last Name: <input type="text" name="lname">
+Order Date: <input type="text" name="order_date">
+Male: <input type="radio" name="male">
+Female: <input type="radio" name="female">
+<input type="submit" name="submit">
+</fieldset>
+</form>
 
 
 
+<h1>SELECT</h1>
+<form >
+<select size="5" type="select-multiple" name="slct" id="sl">
+	<option>one</option>
+	<option>two</option>
+	<option>Three</option>
+	<option>Four</option>
+	<option>Five</option>
 
+</select>
+	<form>
+<br/><br/><br/><br/><br/>
+		<a id="replace" onClick="myButton()">CLICKME</a>
 
+<script>
+
+function myButton(){
+var tom = document.location.href;
+d = document.getElementById("replace");
+d.innerHTML="AJFLDJFOAJSF:ADOPJF:AOPSFJ:DJOP"
+}
 </script>
-
 
 
 
