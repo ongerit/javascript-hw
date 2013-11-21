@@ -1,0 +1,16 @@
+	<?xml version="1.0"?> 			
+	<person>					
+		 <name>Sam Sultan</name> 
+		 <address> 
+			<addrLine>48 Cooper Square</addrLine> 
+			<city>New York</city> 
+			<state>NY</state> 
+			 <zip>10012</zip> 
+		</address> 
+		<phoneNumbers> 
+			<phone location="Work">212.123.4567</phone> 
+			<phone location="Home">516.345.6789</phone> 
+		</phoneNumbers> 
+	</person> 
+
+
